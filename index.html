@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html5>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Winc Academy Front End Development Module Eindopdracht 3: Kleuren Toggle">
+        <meta name="keywords" content="kleuren toggle menu">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/397734afb5.js" crossorigin="anonymous"></script>
+        <script defer src="JS/script.js"></script>
+        <title> Eindopdracht 3 </title>
+    </head>
+    <body id="body" class="color-neutral">
+        <main>
+            <header id="header"> 
+                <div class="menu-icon">                    
+                    <i class="fas fa-bars"></i>
+                </div>           
+                <div id="toggle"></div>                            
+            </header> 
+            <aside id="nav-sidebar">
+                <ul id="color-list">
+                    <li class="color-list" id="menu-grey">
+                        <label for="radio-grey">
+                            <input type="radio" id="radio-grey" name="color" value="grey">
+                            Grey
+                        </label>
+                    </li>
+                    <li class="color-list" id="menu-red">
+                        <label for="radio-red">
+                            <input type="radio" id="radio-red" name="color" value="red">
+                            Red
+                        </label>
+                    </li>
+                    <li class="color-list" id="menu-yellow">
+                        <label for="radio-yellow">
+                            <input type="radio" id="radio-yellow" name="color" value="yellow">
+                            Yellow
+                        </label>
+                    </li>
+                    <li class="color-list" id="menu-purple">
+                        <label for="radio-purple">
+                            <input type="radio" id="radio-purple" name="color" value="purple">
+                            Purple
+                        </label>
+                    </li>
+                    <li class="color-list" id="menu-green">
+                        <label for="radio-green">
+                            <input type="radio" id="radio-green" name="color" value="green">
+                            Green
+                        </label>
+                    </li>
+                </ul>
+                
+            </aside>  
+            <p id="textColor">
+                The current background color is neutral
+            </p>                 
+        </main>
+        
+    </body>
+</html5>
